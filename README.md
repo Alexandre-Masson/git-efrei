@@ -34,4 +34,12 @@ Nous avons vu les commandes Git suivantes :
 14. git diff [<commit_number>] : afficher la liste des dernières modifications n'ayant pas fait l'objet d'un commit ou les différences entre l'état actuel du code et celui d'un commit précédent
 15. git ls-files : affiche la liste des fichiers actuellement suivi par Git pour le projet en cours
 16. git update-git-for-windows : met à jour Git vers la dernière version en date
+17. git tag : afficher la liste de tous les tags du projet
+18. git tag -a <numero_tag> -m "<message_tag>" <commit_number> : ajouter un tag avec un numéro de version et un message sur un commit donné
+19. git tag -d <numero_tag> : supprimer un tag donné
+20. git show <commit_number> | <numero_tag> : afficher les détails d'un commit à partir de son numéro ou du numéro de tag qui lui est associé
+21. git branch <nom_branche> : créer une nouvelle branche à partir de la branche de travail actuelle
+21. git branch -d <nom_branche> : supprimer la branche locale spécifiée
+22. git checkout <nom_branche> : se positionner sur la branche spécifiée
+23. git checkout -b <nom_branche> : créer une nouvelle branche puis se positionner dessus
 
