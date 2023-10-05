@@ -33,4 +33,5 @@ Nous avons vu les commandes Git suivantes :
 13. git restore <file_name> : annuler les modifications apportées sur un fichier depuis le dernier commit
 14. git diff [<commit_number>] : afficher la liste des dernières modifications n'ayant pas fait l'objet d'un commit ou les différences entre l'état actuel du code et celui d'un commit précédent
 15. git ls-files : affiche la liste des fichiers actuellement suivi par Git pour le projet en cours
+16. git update-git-for-windows : met à jour Git vers la dernière version en date
 
