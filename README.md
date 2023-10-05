@@ -42,4 +42,5 @@ Nous avons vu les commandes Git suivantes :
 21. git branch -d <nom_branche> : supprimer la branche locale spécifiée
 22. git checkout <nom_branche> : se positionner sur la branche spécifiée
 23. git checkout -b <nom_branche> : créer une nouvelle branche puis se positionner dessus
+24. git merge <branche_a_fusionner> : fusionne les modifications de la branche spécifiée dans la branche de travail actuelle
 
