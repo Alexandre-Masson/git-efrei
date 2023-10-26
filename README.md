@@ -124,4 +124,7 @@ Dans l'autre branche :
 
 Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs.
 
+CECI EST UNE PHRASE PROVENANT DE LA BRANCHE branch2 !
+Ceci est une autre phrase provenant de la branche branch2.
+
 CECI EST UNE SUPER NOUVELLE PHRASE !
