@@ -170,7 +170,7 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 20. A l'aide de la commande `git cherry-pick`, appliquez les changements du commit récupéré sur la branche `feat/.gitignore` sur votre branche de travail courante
 21. Sauvegardez les changements en créant un commit puis envoyez ces changements sur le dépôt distant dans la branche distante `feat/hello-world`
 22. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/update-readme` puis positionnez-vous dessus
-23. Ajoutez le contenu suivant dans le fichier README :
+23. Ajoutez le contenu suivant dans le fichier `README.md` :
 
     ## Nouveauté
 
