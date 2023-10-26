@@ -1,11 +1,17 @@
 # Exemple pour le cours versioning de code - l'outil Git
+
 ## EFREI 03/10/2022
 
 # Titre H1
+
 ## Titre H2
+
 ### Titre H3
+
 #### Titre H4
+
 ##### Titre H5
+
 ###### Titre H6
 
 _Je suis un super paragraphe en italique_\
@@ -18,6 +24,7 @@ _avec retour à la ligne_\
 | Texte exemple aligné à gauche | Texte exemple centré | Texte exemple aligné à droite |
 
 ## Points vus le 05/10/2023
+
 Nous avons vu les commandes terminal suivantes :
 
 1. pwd : permet de savoir où l'on se trouve au sein de l'arborescence du système de fichiers
@@ -68,6 +75,7 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 Aller sur [github](https://github.com/) et cliquer sur "Sign up" pour lancer le processus de création de compte.
 
 ## Génération d'une clé SSH
+
 ```bash
 ssh-keygen
 ```
@@ -103,7 +111,6 @@ Dans l'autre branche :
 
 1. Vous appliquerez les changements contenus dans le stash via la commande `git stash apply`.
 
-
 ## Exercice 2
 
 (travail en binôme)
@@ -114,4 +121,4 @@ Dans l'autre branche :
 
 3. Maintenant, COLLABORATOR et OWNER vont tous deux travailler sur le même dépôt, envoyer leurs modifications dans le dépôt distant, sur la même branche ou sur des branches séparées, et récupérer à intervalle régulier les changements effectués existants dans le dépôt distant.
 
-Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs. :')
+Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs.
