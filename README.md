@@ -126,3 +126,5 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 
 CECI EST UNE PHRASE PROVENANT DE LA BRANCHE branch2 !
 Ceci est une autre phrase provenant de la branche branch2.
+
+CECI EST UNE SUPER NOUVELLE PHRASE !
