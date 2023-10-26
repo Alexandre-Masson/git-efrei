@@ -69,6 +69,7 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | `git push [<alias> <branche>]` | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le dépôt distant mentionné
 | `git stash` | | Retire et stocke en mémoire les changements non commités de la branche actuelle |
 | `git stash apply` | | Applique les changements du dernier patch sur la branche courante |
+| `git cherry-pick`  | | Applique un commit donné dans la branche de travail |
 
 ## Création d'un compte GitHub
 
