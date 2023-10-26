@@ -128,3 +128,5 @@ CECI EST UNE PHRASE PROVENANT DE LA BRANCHE branch2 !
 Ceci est une autre phrase provenant de la branche branch2.
 
 CECI EST UNE SUPER NOUVELLE PHRASE !
+
+Ceci est une phrase qui ne causera pas de conflit, pour une fois...
