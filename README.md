@@ -168,7 +168,7 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 18. Placez-vous dans vos autres branches et effectuez la même opération que pour l'étape 17
 19. Récupérez le numéro de commit de la branche `feat/gitignore` qui ajoute des infos dans le fichier `.gitignore` puis positionnez-vous dans la branche `feat/hello-world`
 20. A l'aide de la commande `git cherry-pick`, appliquez les changements du commit récupéré sur la branche `feat/gitignore` sur votre branche de travail courante
-21. Sauvegardez les changements en créant un commit puis envoyez ces changements sur le dépôt distant dans la branche distante `feat/hello-world`
+21. Envoyez ces changements sur le dépôt distant dans la branche distante `feat/hello-world`
 22. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/update-readme` puis positionnez-vous dessus
 23. Ajoutez le contenu suivant dans le fichier `README.md` :
 
