@@ -69,6 +69,7 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | `git push [<alias> <branche>]` | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le dépôt distant mentionné
 | `git stash` | | Retire et stocke en mémoire les changements non commités de la branche actuelle |
 | `git stash apply` | | Applique les changements du dernier patch sur la branche courante |
+| `git cherry-pick`  | | Applique un commit donné dans la branche de travail |
 
 ## Création d'un compte GitHub
 
@@ -122,3 +123,63 @@ Dans l'autre branche :
 3. Maintenant, COLLABORATOR et OWNER vont tous deux travailler sur le même dépôt, envoyer leurs modifications dans le dépôt distant, sur la même branche ou sur des branches séparées, et récupérer à intervalle régulier les changements effectués existants dans le dépôt distant.
 
 Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs.
+
+## Exercice 3 : création d'un projet git de toutes pièces
+
+(travail seul)
+
+1. Créez un nouveau dossier sur votre Bureau à l'aide de la commande `mkdir`
+2. Positionnez-vous dans le dossier nouvellement créé à l'aide de la commande `cd`
+3. A l'aide de la commande `touch`, créez deux fichiers nommés "README.md" et ".gitignore" (sans les guillemets, bien évidemment...)
+4. Initialisez un nouveau dépôt pour votre projet
+5. Créez une nouvelle branche de travail que vous appelerez `development` à partir de la branche `main`
+6. Insérez le contenu suivant dans votre fichier README.md :
+
+    ## Projet d'exercice Git
+
+    ### Démarrage du projet
+
+    Le projet a été démarré le 26/10/2023 et a pour objectif d'apprendre à utiliser l'outil Git Client.
+
+7. Créez un commit afin de sauvegarder les changements apportés au fichier `README.md`.
+8. A partir de la branche `development`, créez une nouvelle branche appelée `feat/.gitignore`, puis positionnez-vous sur cette nouvelle branche
+9. Ajoutez le contenu suivant dans le fichier `.gitignore` :
+    node_modules
+    src
+    .env
+    .env.development.local
+    .env.test.local
+    .env.production.local
+    .env.local
+    logs
+10. Créez un commit afin de sauvegarder les changements apportés au fichier `.gitignore`
+11. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/hello-world`
+12. Dans cette nouvelle branche, à l'aide de la commande `touch`, créez un nouveau fichier appelé `index.js`
+13. Dans ce fichier `index.js`, ajoutez le contenu suivant :
+    (function sayHello() {
+      return `Hello world!`
+    })();
+14. Créez un commit afin de sauvegarder les changements apportés au projet
+15. Maintenant, allez sur le site github.com et créez un nouveau dépôt (repository)
+16. Dans votre projet local, ajoutez l'url distante de votre dépôt Github en lui donnant pour alias `origin`
+17. Positionnez-vous sur votre branche `main` et sauvegardez-là sur votre dépôt distant
+18. Placez-vous dans vos autres branches et effectuez la même opération que pour l'étape 17
+19. Récupérez le numéro de commit de la branche `feat/.gitignore` qui ajoute des infos dans le fichier `.gitignore` puis positionnez-vous dans la branche `feat/hello-world`
+20. A l'aide de la commande `git cherry-pick`, appliquez les changements du commit récupéré sur la branche `feat/.gitignore` sur votre branche de travail courante
+21. Sauvegardez les changements en créant un commit puis envoyez ces changements sur le dépôt distant dans la branche distante `feat/hello-world`
+22. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/update-readme` puis positionnez-vous dessus
+23. Ajoutez le contenu suivant dans le fichier README :
+
+    ## Nouveauté
+
+    Un fichier index.js a été créé et contient notre première fonction !
+
+24. Sauvegardez ces modifications à l'aide d'un commit et envoyez les changements dans votre dépôt distant
+25. Depuis l'interface de Github, créez une pull request afin de fusionner les commits présents dans la branche `feat/update-readme` dans la branche `development`
+26. Validez la pull request
+27. Dans votre dépôt local, récupérez les changements de la branche distante `development` dans votre branche locale `development`
+28. Positionnez-vous à présent dans votre branche `feat/hello-world` et procéder à un `git rebase` de la branche development
+29. Ajoutez un changement de votre choix dans la branche `feat/hello-world` puis sauvegardez-le au moyen d'un commit que vous enverrez dans le dépot distant
+30. Au moyen d'une pull request, fusionnez les commits de la branche `feat/hello-world` dans la branche `development`
+31. Dans votre dépôt local, positionnez-vous sur la branche `development` et récupérez les changements pour cette branche présents dans le dépôt distant
+32. Enfin, fusionnez la branche `development` dans la branche `main` au moyen de la commande `git merge`
