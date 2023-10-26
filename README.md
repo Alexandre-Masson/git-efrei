@@ -123,3 +123,5 @@ Dans l'autre branche :
 3. Maintenant, COLLABORATOR et OWNER vont tous deux travailler sur le même dépôt, envoyer leurs modifications dans le dépôt distant, sur la même branche ou sur des branches séparées, et récupérer à intervalle régulier les changements effectués existants dans le dépôt distant.
 
 Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs.
+
+CECI EST UNE SUPER NOUVELLE PHRASE !
