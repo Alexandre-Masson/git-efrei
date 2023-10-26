@@ -132,8 +132,7 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 2. Positionnez-vous dans le dossier nouvellement créé à l'aide de la commande `cd`
 3. A l'aide de la commande `touch`, créez deux fichiers nommés "README.md" et ".gitignore" (sans les guillemets, bien évidemment...)
 4. Initialisez un nouveau dépôt pour votre projet
-5. Créez une nouvelle branche de travail que vous appelerez `development` à partir de la branche `main`
-6. Insérez le contenu suivant dans votre fichier README.md :
+5. Insérez le contenu suivant dans votre fichier README.md :
 
     ## Projet d'exercice Git
 
@@ -141,8 +140,9 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 
     Le projet a été démarré le 26/10/2023 et a pour objectif d'apprendre à utiliser l'outil Git Client.
 
-7. Créez un commit afin de sauvegarder les changements apportés au fichier `README.md`.
-8. A partir de la branche `development`, créez une nouvelle branche appelée `feat/.gitignore`, puis positionnez-vous sur cette nouvelle branche
+6. Créez un commit afin de sauvegarder les changements apportés au fichier `README.md`.
+7. Créez une nouvelle branche de travail que vous appelerez `development` à partir de la branche `main`
+8. A partir de la branche `development`, créez une nouvelle branche appelée `feat/gitignore`, puis positionnez-vous sur cette nouvelle branche
 9. Ajoutez le contenu suivant dans le fichier `.gitignore` :
     node_modules
     src
@@ -166,8 +166,8 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 16. Dans votre projet local, ajoutez l'url distante de votre dépôt Github en lui donnant pour alias `origin`
 17. Positionnez-vous sur votre branche `main` et sauvegardez-là sur votre dépôt distant
 18. Placez-vous dans vos autres branches et effectuez la même opération que pour l'étape 17
-19. Récupérez le numéro de commit de la branche `feat/.gitignore` qui ajoute des infos dans le fichier `.gitignore` puis positionnez-vous dans la branche `feat/hello-world`
-20. A l'aide de la commande `git cherry-pick`, appliquez les changements du commit récupéré sur la branche `feat/.gitignore` sur votre branche de travail courante
+19. Récupérez le numéro de commit de la branche `feat/gitignore` qui ajoute des infos dans le fichier `.gitignore` puis positionnez-vous dans la branche `feat/hello-world`
+20. A l'aide de la commande `git cherry-pick`, appliquez les changements du commit récupéré sur la branche `feat/gitignore` sur votre branche de travail courante
 21. Sauvegardez les changements en créant un commit puis envoyez ces changements sur le dépôt distant dans la branche distante `feat/hello-world`
 22. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/update-readme` puis positionnez-vous dessus
 23. Ajoutez le contenu suivant dans le fichier `README.md` :
