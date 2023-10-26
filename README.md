@@ -17,6 +17,19 @@ _avec retour à la ligne_\
 | Header    | Title       | Texte |
 | Texte exemple aligné à gauche | Texte exemple centré | Texte exemple aligné à droite |
 
+## Points vus le 05/10/2023
+Nous avons vu les commandes terminal suivantes :
+
+1. pwd : permet de savoir où l'on se trouve au sein de l'arborescence du système de fichiers
+2. ls : (options -a, -l, -A) permet d'afficher la liste des dossiers et fichiers ainsi que les droits qui leurs sont liés
+3. cd : permet de se déplacer dans l'arborescence du système de fichiers (. = dossier courant, .. = dossier parent)
+4. mkdir : permet de créer un dossier
+5. touch : permet de créer un fichier
+6. rmdir : permet de supprimer un dossier
+7. rm : permet de supprimer un fichier / dossier (avec l'option de récursivité -r)
+8. cat / less / more <file_name> : afficher le contenu d'un fichier
+9. clear : nettoyer le terminal
+
 ## Fonctionnement
 
 Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du dossier parent, un fichier secret.txt contenant les client_secret et client_key.
