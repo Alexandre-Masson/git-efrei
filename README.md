@@ -156,9 +156,11 @@ Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous
 11. **Après vous être repositionné dans la branche** `development`, créez une nouvelle branche appelée `feat/hello-world`
 12. Dans cette nouvelle branche, à l'aide de la commande `touch`, créez un nouveau fichier appelé `index.js`
 13. Dans ce fichier `index.js`, ajoutez le contenu suivant :
+
     (function sayHello() {
-      return `Hello world!`
+      return `Hello world!`;
     })();
+
 14. Créez un commit afin de sauvegarder les changements apportés au projet
 15. Maintenant, allez sur le site github.com et créez un nouveau dépôt (repository)
 16. Dans votre projet local, ajoutez l'url distante de votre dépôt Github en lui donnant pour alias `origin`
